@@ -1,0 +1,16 @@
+{
+  "name": "templateengine",
+  "version": "1.0.0",
+  "description": "'template engine'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ccrtechy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "node": "^19.3.0"
+  }
+}

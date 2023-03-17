@@ -1,0 +1,11 @@
+Nodemon:
+* It is a tool used to develop nodejs based applications by automatically restarting the node appliaction, 
+  when we change in code or appliaction.
+* It is automatically refresh and show result.
+
+* we can install nodemon by:
+    : npm i nodemon -g  -where 'g' is global
+    : nodemon -v  -to get version
+    : nodemon filename.js -to execute automatically
+    : nodemon index.js
+    : Ctrl_C -to exit

@@ -1,0 +1,13 @@
+* Node.js os module provides a few basic operating-system related utility functions. 
+* This module can be imported using the following syntax.
+* This module provides operating system-related utility methods and properties. 
+
+It can be accessed using:
+const os = require('os');
+
+console.log(os.hostname());
+console.log(os.platform());
+console.log(os.type());
+console.log(os.arch()); 
+
+and so on ......................

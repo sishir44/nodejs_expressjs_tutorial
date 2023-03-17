@@ -1,0 +1,8 @@
+# If npm is not installed properly, then use following command
+i) mkdir ~/.npm-global
+ii) npm config set prefix '~/.npm-global'
+iii) export PATH=~/.npm-global/bin:$PATH
+iv) source ~/.profile
+
+* (): grouping operator
+* If we write anonymous function inside grouping operator then it is called wrapper module.

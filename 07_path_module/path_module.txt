@@ -1,0 +1,11 @@
+* The Path module provides a way of working with directories and file paths.
+
+It can be accessed using:
+const path = require('path');
+
+console.log(path.dirname("path of file");
+console.log(path.extname("path of file");
+console.log(path.basename("path of file");
+console.log(path.parse("path of file");
+
+and so on ........................

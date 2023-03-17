@@ -1,0 +1,4 @@
+Events Module:
+* Node.js has a built-in module, called "Events", where you can create-, fire-, and listen for- your own events.
+* we can call multiple functions from one events.
+* We need to call function before events.

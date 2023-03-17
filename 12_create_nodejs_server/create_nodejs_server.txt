@@ -1,0 +1,10 @@
+Web Server:
+* To access web pages of any web application, we need  a web server.
+* The web server will handle all the HTTP requests for the web application.
+
+Eg: 
+    IIS is a web server for ASP.NET,
+    Apache is a web server for PHP or Java and so on......
+
+* Nodejs provides capabilities to create your own web server which will handle HTTP requests asynchronously.
+* We can use IIS or Apache to run Nodejs web applications but it is recommended to use Nodejs web server.

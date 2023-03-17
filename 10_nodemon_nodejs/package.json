@@ -1,0 +1,11 @@
+{
+  "name": "nodemonccr",
+  "version": "1.0.0",
+  "description": "installing nodemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "techyccr",
+  "license": "ISC"
+}

@@ -1,0 +1,12 @@
+Core Modules:
+* considered modules to be same as JS library.
+* A set of function you want to include in your application.
+* Nodejs has a set of built-in modules which you can use without further installation.
+
+To import a module:
+const fs = require("fs");
+
+Eg: fs.writeFileSync("filename.txt", "Message")'
+
+* Nodejs includes an additional data types called "buffer".
+* Buffer is mainly used to store binary data, while reading from a file or receiving packets over the n/w.

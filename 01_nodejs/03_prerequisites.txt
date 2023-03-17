@@ -1,0 +1,3 @@
+i) Basic JS and (Advanced JS) in Bonus.
+ii) ES5 and ES6 (ECMAScript6).
+iii) Client server model(optional).

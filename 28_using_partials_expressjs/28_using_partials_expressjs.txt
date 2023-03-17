@@ -1,0 +1,38 @@
+* Partials are basically just views that are designed to be used from within other views. 
+* They are particularly useful for reusing the same markup between different views, layouts, and even other partials.
+* We can write code at once and use it multiple times. Eg: Navbar(home,about,contact and ...).
+* Whatever code we are using multiple times that repeating code are called partials and we can write those code inside the partial folder with the extension (.hbs). 
+
+// Need to require hsb:
+	var hbs = require('hbs');
+
+// register path to partials and views
+	const templatePath = path.join(__dirname, '../templates/views');
+    const partialPath = path.join(__dirname, '..templates/partials');
+
+// calling a views where the data is present.
+	hbs.registerPartials(partialPath);
+
+
+FOLLOW:
+folder_name:
+  - node_modules
+  - src
+      - index.js (application)
+
+  - templates
+    - partials
+	-header.hbs (code which we are using other files also)
+
+    -views
+	- index.hbs (code which we want to shown in index.js file and also we can import from partials)
+	  {{> header }}
+
+
+NOTE:
+I: connect views(index.hbs) into src(index.js).
+II: connect partials(header.hbs) into views(index.hbs).
+	
+Connection:
+* partials(header.hbs) ---> views(index.hbs) // html connection {{> file_name}}
+* views(index.hbs) ---> src(index.js) // rendering views in application(index.js).

@@ -1,0 +1,24 @@
+NPM:
+* npm is the world's largest Software Library (Registry).
+* npm is also a software Package Manager and Installer
+* Open-source developers use npm to share software.
+* Many organizations also use npm to manage private development.
+* npm includes a CLI (Command Line Client) that can be used to download and install software:
+* All npm packages are defined in files called package.json.
+* The content of package.json must be written in JSON.
+* npm can (in one command line) install all the dependencies of a project.
+* Dependencies are also defined in package.json.
+
+* To use npm, we need to initialize it inside our project
+    : npm init
+
+* We can install any npm package
+    : npm i package_name
+    : npm i chalk -> used to show color in terminal
+
+* After install npm package, we acan easily execute the file
+    : node file_name
+    : node index.js
+
+* To install dependency we use below cmd inside the file.
+    : npm i module_name

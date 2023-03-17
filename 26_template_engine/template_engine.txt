@@ -1,0 +1,42 @@
+Template Engine:
+* A template engine enables you to use static template files in your application. 
+* At runtime, the template engine replaces variables in a template file with actual values, 
+  and transforms the template into an HTML file sent to the client. 
+* This approach makes it easier to design an HTML page.
+* To create a dynamic website, we use a template engine.
+
+* Some popular template engines that work with Express are:
+    Pug, 
+    hbs, 
+    Mustache,
+    EJS. 
+* The Express application generator uses Jade as its default, but it also supports several others.
+
+
+NOTE:
+- Jade has been renamed to Pug. 
+- You can continue to use Jade in your app, and it will work just fine. 
+- However if you want the latest updates to the template engine, you must replace Jade with Pug in your app.
+
+
+Prerequisites:
+    npm init
+    npm install node
+    npm install express
+    npm install hbs,pug,mustache,ejs ...
+
+
+STEPS:
+    - views folder must be there which containing template engine with extension. (eg:index.hbs) (we can write html file)
+        <h1> {{name}}</h1>
+
+    - src/index.js file, we can write the code
+
+        // to set a view engine
+          app.set('view engine', 'hbs');
+
+        // template engine routes
+          app.get("", (req, res) =>{
+            res.render('index', {
+                name: "sishir",            }
+          });

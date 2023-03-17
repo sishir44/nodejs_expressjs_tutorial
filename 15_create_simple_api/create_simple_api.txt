@@ -1,0 +1,6 @@
+API:
+* Application programming interface which a s/w intermediary that allows two application to 
+  talk to each other.
+* Each time you use an app like FB, send an instant msg, or check the weather on your phone 
+  you are using API.
+* API is like a service which allows us to request a data.

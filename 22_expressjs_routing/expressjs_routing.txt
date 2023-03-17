@@ -1,0 +1,5 @@
+Routing:
+* Routing is made from the word route. 
+* It is used to determine the specific behavior of an application. 
+* It specifies how an application responds to a client request to a particular route, URL or path 
+  and a specific HTTP request method (GET, POST, etc.). It can handle different types of HTTP requests.

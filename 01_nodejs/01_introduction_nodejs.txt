@@ -1,0 +1,15 @@
+Nodejs is JS runtime environment built on chrome's V8 JS engine.
+It is a JS running on the server.
+It is a cross-platform runtime environment for executing JavaScript Code outside of the browser.
+Mainly used in developing APIs and microservices.
+
+HISTORY:
+In 2009 an idea came in the mind of Ryan Dahl(Google Engineer) that why not run JS outside browser,
+so he took V8 engine and embedded in C++ program and called it as node.exe, later becomes node.js.
+
+
+Install : sudo apt-get install nopdejs
+Version: node -v   OR  node -Version
+
+Install: sudo apt-get install npm
+Version: node -v OR node -Version

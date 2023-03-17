@@ -1,0 +1,21 @@
+- creating a folder containg:
+
+    -node_module
+    -public
+        -css
+            style.css
+        -html
+        -images
+    -src
+        -application.js
+        -index.js
+    -package.json
+
+
+- we can write all the html code in public and
+- we can connect it into src where our .js file exist.
+
+- we can use "express.static" to connect the file.
+    const staticPath = path.join(__dirname, "../public");
+        // built-in middleware:
+    app.use(express.static(staticPath));

@@ -1,0 +1,13 @@
+* whenever we are trying to route invalid page, then there should shown as 404 error message.
+
+* To show 404-error messages,we use:
+            app.get('*', (req, res) => { 
+                res.render('404', {
+                    errorcomment:"The page is Invalid 404 error",
+                });
+            });
+
+NOTE:
+    * : It is a special character, that matches invalid page.  
+        If we search the invalid page in an appliaction, then '*' will help us to show the 404-error message.
+        It represents pages except in an application. 

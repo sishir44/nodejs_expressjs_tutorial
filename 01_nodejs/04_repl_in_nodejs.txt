@@ -1,0 +1,25 @@
+REPL:
+* stands for Read Eval Print and Loop.
+* The REPL features of node is very useful in experimenting with Node.js codes and to debug JS Code.
+* It is just like a nodejs cmd as we use windows command.
+
+Read: reads user's input, parses the i/p into JS, and stores in memory.
+Eval: takes and evaluates the ds.
+print: prints the result.
+loop: loops the above cmd until the user presses Ctrl+C twice.
+
+=> to enter a REPL environment we just type in terminal: node.
+=> to get help we just type: .help.
+=> to exit from repl type: .exit.
+=>to make a file we use: type nul > file_name.js.
+
+Inside REPL we can perform many things:
+i) JS Expression (eg: 3+3=6)
+ii) use variable eg: var a = 'sishir';
+iii) multiline code/loops
+iv) use (_) to know last result
+v) we can use editor mode type: .editor (just like text editor)
+vi) To get all file and command in REPL we use: features
+vii) To know the topics in nodejs we just use: double_tab.
+
+

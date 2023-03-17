@@ -1,0 +1,13 @@
+When to use NodeJs ?
+
+* I/O bound
+* Data streaming Application
+* Real time chat Application
+
+Install: sudo apt-get install nodejs npm
+
+
+How to execute NodeJs ?
+I: we must be inside a particular folder where we want to execute our node.js file.
+II: Ctrl + Shift + ` to open a terminal.
+III: type: node filename.NodeJs
